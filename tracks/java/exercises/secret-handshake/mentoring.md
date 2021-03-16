@@ -1,6 +1,8 @@
-### Reasonable solutions
+# Mentoring
 
-#### Using the `ordinal()` method to check the bits
+## Reasonable solutions
+
+### Using the `ordinal()` method to check the bits
 
 ```java
 import java.util.ArrayList;
@@ -32,7 +34,7 @@ class HandshakeCalculator {
 }
 ```
 
-#### Modifying the Signal enum
+### Modifying the Signal enum
 
 `Signal.java`:
 ```java

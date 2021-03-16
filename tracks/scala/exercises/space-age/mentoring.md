@@ -1,6 +1,8 @@
-### Reasonable solutions
+# Mentoring
 
-#### Simple Solutions
+## Reasonable solutions
+
+### Simple Solutions
 
 ```scala
 object SpaceAge {
@@ -50,7 +52,7 @@ object SpaceAge {
 }
 ```
 
-#### Solution using Dynamics
+### Solution using Dynamics
 
 ```scala
 import scala.language.dynamics

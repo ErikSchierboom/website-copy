@@ -1,4 +1,6 @@
-### Reasonable solutions
+# Mentoring
+
+## Reasonable solutions
 
 ```javascript
 const buildRow = (result, element, index, array) => {

@@ -1,4 +1,6 @@
-### Reasonable Solutions
+# Mentoring
+
+## Reasonable Solutions
 ```kotlin
 object Hamming {
     fun compute(left: String, right: String): Int {
@@ -17,6 +19,6 @@ object Hamming {
 }
 ```
 
-### Common suggestions
+## Common suggestions
 * Function `require()` can be used to check for difference between strand lengths.
 * Function `zip()` can be used to zip the strands together and `count()` to count the number of deviated chars.

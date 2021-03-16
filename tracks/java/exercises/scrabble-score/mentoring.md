@@ -1,6 +1,8 @@
-### Reasonable solutions
+# Mentoring
 
-#### Using int array for mapping letters to scores:
+## Reasonable solutions
+
+### Using int array for mapping letters to scores:
 ```java
 class Scrabble {
     private final String word;
@@ -27,7 +29,7 @@ class Scrabble {
 }
 ```
 
-#### Using a Hashmap
+### Using a Hashmap
 ```java
 import java.util.HashMap;
 import java.util.Map;
@@ -64,7 +66,7 @@ class Scrabble {
 }
 ```
 
-#### Without a Hashmap
+### Without a Hashmap
 ```java
 class Scrabble {
 
@@ -93,7 +95,7 @@ class Scrabble {
 }
 ```
 
-#### Using Java 9 Map factory methods
+### Using Java 9 Map factory methods
 ```java
 private static final Map<Character, Integer> SCORES = Map.ofEntries(
     entry('a', 1),

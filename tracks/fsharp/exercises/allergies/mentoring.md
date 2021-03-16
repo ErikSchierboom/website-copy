@@ -1,6 +1,8 @@
-### Reasonable solutions
+# Mentoring
 
-#### Using an enum
+## Reasonable solutions
+
+### Using an enum
 
 ```fsharp
 module Allergies
@@ -27,7 +29,7 @@ let allergicTo codedAllergies allergen = codedAllergies &&& int allergen <> 0
 let list codedAllergies = List.filter (allergicTo codedAllergies) allergens
 ```
 
-#### Using a discriminated union
+### Using a discriminated union
 
 ```fsharp
 module Allergies

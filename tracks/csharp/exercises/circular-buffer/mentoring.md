@@ -1,8 +1,10 @@
-### Reasonable solutions
+# Mentoring
+
+## Reasonable solutions
 
 This exercise aims to teach two concepts: queue, as an abstract data structure, and how to use the associated implementation `Queue<T>`. Below you could find two very similar implementations.
 
-#### using `Queue`
+### using `Queue`
 
 ```csharp
 using System;
@@ -41,7 +43,7 @@ public class CircularBuffer<T>
 }
 ```
 
-#### extending generic collection `Queue<T>`
+### extending generic collection `Queue<T>`
 
 ```csharp
 using System;

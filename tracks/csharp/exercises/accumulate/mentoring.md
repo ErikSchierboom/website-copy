@@ -1,6 +1,8 @@
-### Reasonable solutions
+# Mentoring
 
-#### Using yield
+## Reasonable solutions
+
+### Using yield
 
 ```csharp
 using System;
@@ -18,7 +20,7 @@ public static class AccumulateExtensions
 }
 ```
 
-#### Storing the results in an intermediate list
+### Storing the results in an intermediate list
 
 ```csharp
 using System;

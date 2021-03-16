@@ -1,4 +1,6 @@
-### Concepts
+# Mentoring
+
+## Concepts
 
 - derive macro: [Debug](https://doc.rust-lang.org/std/fmt/trait.Debug.html) and [PartialEq](https://doc.rust-lang.org/std/cmp/trait.PartialEq.html#derivable)
 - [struct](https://doc.rust-lang.org/std/keyword.struct.html)
@@ -6,7 +8,7 @@
 - [implementations](https://doc.rust-lang.org/std/keyword.impl.html)
 - traits: [Display](https://doc.rust-lang.org/std/fmt/trait.Display.html)
 
-### Reasonable solutions
+## Reasonable solutions
 
 A reasonable solution should:
 
@@ -19,7 +21,7 @@ A reasonable solution should:
 * Have clean logic for performing the modulus.
 * Have an extremely simple `fmt::Display` impl.
 
-#### Examples
+### Examples
 
 ```rust
 use std::fmt;

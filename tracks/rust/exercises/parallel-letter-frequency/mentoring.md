@@ -1,4 +1,6 @@
-### Concepts
+# Mentoring
+
+## Concepts
 
 - Char and string manipulation
 - Multithreading and synchronization toolkit in libstd
@@ -6,7 +8,7 @@
 - How the captured references determine the lifetime of a closure
 - (optional) third party parallel crates
 
-### Reasonable solutions
+## Reasonable solutions
 
 A reasonable solution should:
 
@@ -17,7 +19,7 @@ A reasonable solution should:
 - ***Optional***: avoid spawning threads for extremely small work loads
 - ***Optional***: avoid allocations with scoped threads or high level abstractions provided by third party crates
 
-### Examples:
+## Examples:
 
 With libstd only (based on the solution by jguinart):
 ```rust

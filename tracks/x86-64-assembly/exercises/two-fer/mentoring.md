@@ -1,6 +1,8 @@
-### Reasonable solutions
+# Mentoring
 
-#### Hand-rolled loop
+## Reasonable solutions
+
+### Hand-rolled loop
 
 ```nasm
     movzx edx, byte [rdi]
@@ -16,7 +18,7 @@
 .loop_end:
 ```
 
-#### Using `rep movsb` instructions
+### Using `rep movsb` instructions
 
 ```nasm
     mov rdi, rsi
@@ -25,7 +27,7 @@
     rep movsb
 ```
 
-#### Using the C standard library
+### Using the C standard library
 
 ```nasm
     mov rdx, rdi

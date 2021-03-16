@@ -1,4 +1,6 @@
-### Reasonable Solutions
+# Mentoring
+
+## Reasonable Solutions
 
 Stream-based solution:
 ```java

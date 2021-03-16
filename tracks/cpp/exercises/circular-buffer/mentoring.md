@@ -1,6 +1,8 @@
-### Reasonable solutions
+# Mentoring
 
-#### With iterators
+## Reasonable solutions
+
+### With iterators
 
 ```C++
 #if !defined(CIRCULAR_BUFFER_H_)
@@ -72,7 +74,7 @@ private:
 #endif
 ```
 
-#### With indexes
+### With indexes
 
 ```C++
 #if !defined(CIRCULAR_BUFFER_H_)

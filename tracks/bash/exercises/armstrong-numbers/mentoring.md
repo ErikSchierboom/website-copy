@@ -1,4 +1,6 @@
-### Reasonable Solutions
+# Mentoring
+
+## Reasonable Solutions
 
 ```bash
 #!/usr/bin/env bash
@@ -38,7 +40,7 @@ else
 fi
 ```
 
-### Common Suggestions
+## Common Suggestions
 
 This exercise is the first core exercise where the students need to split a
 string into individual characters.  So it's a good opportunity to introduce
@@ -48,7 +50,7 @@ reading with `while read`.
 This link: (https://www.tldp.org/LDP/abs/html/string-manipulation.html) is
 often a good one to link to for further reading on indexing and length-finding.
 
-### Talking Points
+## Talking Points
 
 It's really easy for students to reach for external commands to do these things
 (e.g. `grep -o '[[:digit:]]'`).  Some of these are simple and clear, some are

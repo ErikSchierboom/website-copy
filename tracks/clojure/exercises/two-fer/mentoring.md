@@ -1,7 +1,9 @@
-### Intro
+# Mentoring
+
+## Intro
 This exercise is about multi-arity functions.
 
-### Reasonable solutions
+## Reasonable solutions
 
 ```clojure
 (ns two-fer)
@@ -18,10 +20,10 @@ This exercise is about multi-arity functions.
       (as-> f (f name))))
 ```
 
-### Common suggestions
+## Common suggestions
 
-### Talking points
+## Talking points
 - Calling `(two-fer "you")` vs. returning the string directly.
 
-### Mentoring notes
+## Mentoring notes
 - Most users seem to submit exactly the same solution.

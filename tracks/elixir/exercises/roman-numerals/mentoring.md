@@ -1,4 +1,6 @@
-### Reasonable solutions
+# Mentoring
+
+## Reasonable solutions
 
 ```elixir
 defmodule RomanNumerals do
@@ -59,9 +61,9 @@ defmodule RomanNumerals do
 end
 ```
 
-### Common suggestions
+## Common suggestions
 
-#### Default arguments
+### Default arguments
 
 Most students attempt to do two definitions and use the first to invoke the
 second with an empty string as accumulator:
@@ -84,7 +86,7 @@ def numeral(number, acc \\ "") do
 end
 ```
 
-#### Map keys are not ordered
+### Map keys are not ordered
 
 Some students create a map of integers to roman numerals, and then take the keys, assuming they are ordered. Such an approach would look like this:
 

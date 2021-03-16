@@ -1,6 +1,8 @@
-### Reasonable solutions
+# Mentoring
 
-#### Array.Reverse
+## Reasonable solutions
+
+### Array.Reverse
 
 ```csharp
 using System;
@@ -16,7 +18,7 @@ public static class ReverseString
 }
 ```
 
-#### Reverse for-loop
+### Reverse for-loop
 
 ```csharp
 using System.Text;
@@ -37,7 +39,7 @@ public static class ReverseString
 }
 ```
 
-#### LINQ Reverse()
+### LINQ Reverse()
 
 ```csharp
 using System.Linq;

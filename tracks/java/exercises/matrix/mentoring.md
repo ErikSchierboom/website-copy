@@ -1,4 +1,6 @@
-### Reasonable solutions
+# Mentoring
+
+## Reasonable solutions
 
 ```java
 class Matrix {
@@ -24,7 +26,7 @@ class Matrix {
 }
 ```
 
-### Common suggestions
+## Common suggestions
 
 - Initialize the matrix inside the constructor
 - Use a data structure that represents the data stored (eg `int[][]` or `List<List<Integer>>`) rather than just storing
@@ -33,7 +35,7 @@ class Matrix {
 - Store the matrix exactly once (no `rows` with a transposed `columns`)
 - Use the data structure to get the dimensions (length of the array or size of the List)
 
-### Talking points
+## Talking points
 
 - Use defensive copying to protect against a rogue client:
 ```java

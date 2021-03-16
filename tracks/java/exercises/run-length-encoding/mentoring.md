@@ -1,4 +1,6 @@
-### Reasonable solutions
+# Mentoring
+
+## Reasonable solutions
 
 ```java
 import java.util.stream.Collectors;

@@ -1,4 +1,6 @@
-### Concepts
+# Mentoring
+
+## Concepts
 
 - [bool](https://doc.rust-lang.org/std/primitive.bool.html)
 - [char](https://doc.rust-lang.org/std/char/index.html)
@@ -10,7 +12,7 @@
 - [Iterator Methods](https://doc.rust-lang.org/std/iter/trait.Iterator.html#provided-methods)
 - [constant](https://doc.rust-lang.org/std/keyword.const.html)
 
-### Reasonable Solutions
+## Reasonable Solutions
 
 A reasonable solution should:
 
@@ -22,7 +24,7 @@ before doing any additional processing
 - Use simple methods from the standard library
 - Not use the regex crate
 
-#### Examples
+### Examples
 
 ```rust
 const SURE: &str = "Sure.";

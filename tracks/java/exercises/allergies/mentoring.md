@@ -1,4 +1,6 @@
-### Reasonable solutions
+# Mentoring
+
+## Reasonable solutions
 
 ```java
 import java.util.EnumSet;
@@ -24,6 +26,6 @@ public class Allergies {
 }
 ```
 
-### Common suggestions
+## Common suggestions
 
 The student must be encouraged to find a solution using streams.

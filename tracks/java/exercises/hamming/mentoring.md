@@ -1,4 +1,6 @@
-### Reasonable solutions
+# Mentoring
+
+## Reasonable solutions
 
 ```java
 class Hamming {
@@ -41,6 +43,6 @@ class Hamming {
 ```
 
 
-### Common suggestions
+## Common suggestions
 
 - Use [Java 8 IntStream](https://docs.oracle.com/javase/8/docs/api/java/util/stream/IntStream.html) to avoid using ```for``` and ```if``` statements.

@@ -1,6 +1,8 @@
-### Reasonable solutions
+# Mentoring
 
-#### using `Dictionary`
+## Reasonable solutions
+
+### using `Dictionary`
 
 ```csharp
 using System.Collections.Generic;
@@ -41,7 +43,7 @@ public class SpaceAge
 }
 ```
 
-#### Using `constants`
+### Using `constants`
 
 ```csharp
 using System;

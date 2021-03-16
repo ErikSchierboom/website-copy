@@ -1,12 +1,14 @@
-### Reasonable solutions
+# Mentoring
 
-#### Comprehension
+## Reasonable solutions
+
+### Comprehension
 
 ```erl
 accumulate(F, L) -> [F(X) || X <- L].
 ```
 
-#### Tailrecursion
+### Tailrecursion
 
 ```erl
 accumulate(F, L) -> accumulate(F, L, []).
@@ -15,7 +17,7 @@ accumulate(_, [], Acc) -> lists:reverse(Acc);
 accumulate(F, [H|T], Acc) -> accumulate:(F, T, [F(H)|Acc]).
 ```
 
-#### Fold
+### Fold
 
 ```erl
 accumulate(F, L) -> lists:foldr(fun(E, Acc) -> [F(E)|Acc] end, [], L).

@@ -1,6 +1,8 @@
-### Reasonable solutions
+# Mentoring
 
-#### Single expression
+## Reasonable solutions
+
+### Single expression
 
 ```dart
 class Leap {
@@ -9,7 +11,7 @@ class Leap {
 }
 ```
 
-#### Using a helper function
+### Using a helper function
 
 ```dart
 class Leap {

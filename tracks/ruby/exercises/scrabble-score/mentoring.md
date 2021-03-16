@@ -1,4 +1,6 @@
-### Reasonable Solutions
+# Mentoring
+
+## Reasonable Solutions
 
 ```ruby
 class Scrabble

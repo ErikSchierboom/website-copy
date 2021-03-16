@@ -1,11 +1,13 @@
-### Concepts
+# Mentoring
+
+## Concepts
 
 - ascii
 - chars
 - iterators
 - primitive types
 
-### Reasonable solutions
+## Reasonable solutions
 
 A reasonable solution should do the following:
 
@@ -26,7 +28,7 @@ A reasonable solution should do the following:
   that are fixed with NLL, its okay for students so use this but if they do its
   a good idea to show them alternative solutions that use only std methods.
 
-### Examples
+## Examples
 
 ```rust
 use std::iter::once;
@@ -222,7 +224,7 @@ pub fn decode(cipher: &str) -> String {
 }
 ```
 
-### Example Comments
+## Example Comments
 
 If they're not using ascii specific char functions.
 

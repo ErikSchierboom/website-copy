@@ -1,6 +1,8 @@
-### Reasonable solutions
+# Mentoring
 
-#### Solution using zip and count
+## Reasonable solutions
+
+### Solution using zip and count
 
 ```scala
 object Hamming {
@@ -10,7 +12,7 @@ object Hamming {
 }
 ```
 
-#### Solution using range and count
+### Solution using range and count
 
 ```scala
 package object Hamming {

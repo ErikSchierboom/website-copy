@@ -1,11 +1,13 @@
-### Mentor guidance
+# Mentoring
+
+## Mentor guidance
 
 Students that use four counting variables rather than mutating a dict should be shown the dict solution or asked to come up with it on their own if there is some doubt that they knew they could do that.
 
 We shouldn't require the mutating-a-dict strategy because it's actually pretty slow.
 
 
-### Common suggestions
+## Common suggestions
 
 (Formatted so you can copy and paste easily)
 
@@ -13,7 +15,7 @@ We shouldn't require the mutating-a-dict strategy because it's actually pretty s
 - In Julia, the properties of objects are generally considered private unless documented otherwise, so we generally prefer \`value in keys(dict)\` or \`haskey(dict, value)\` over \`value in dict.keys\`
 
 
-### Example solutions
+## Example solutions
 
 Straightforward solution. Easily understood, but a bit slow because it will compute the hash of a character twice on each iteration (though any of these solutions is plenty fast enough for even pretty large inputs!).
 

@@ -1,5 +1,7 @@
-### Reasonable solutions
-#### Array Based
+# Mentoring
+
+## Reasonable solutions
+### Array Based
 ``` 
 public static class ResistorColor
 {
@@ -10,7 +12,7 @@ public static class ResistorColor
     public static string[] Colors() => resistorColors;
 }
 ```
-#### Dictionary Based
+### Dictionary Based
 ```
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -43,7 +45,7 @@ public static class ResistorColor
     }
 }
 ```
-#### Enum Based
+### Enum Based
 ```
 using System;
 

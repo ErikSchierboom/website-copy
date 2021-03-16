@@ -1,6 +1,8 @@
-### Reasonable solutions
+# Mentoring
 
-#### Single expression
+## Reasonable solutions
+
+### Single expression
 
 ```fsharp
 module Leap
@@ -16,7 +18,7 @@ module Leap
 let leapYear year = year % 4 = 0 && year % 100 <> 0 || year % 400 = 0
 ```
 
-#### Using a helper function
+### Using a helper function
 
 ```fsharp
 module Leap

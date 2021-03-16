@@ -1,4 +1,6 @@
-### Reasonable solutions
+# Mentoring
+
+## Reasonable solutions
 
 __Simple solution:__
 
@@ -78,7 +80,7 @@ class Triangle {
 
 
 
-### Common suggestions
+## Common suggestions
 
 - Count the number of unique sides and save it in a field, then use it in the `is` methods. 
 That will make them shorter and easier to understand.

@@ -1,4 +1,6 @@
-### Reasonable Solutions
+# Mentoring
+
+## Reasonable Solutions
 
 Functional solution:
 
@@ -28,6 +30,6 @@ class Squares(val number: Int) {
 }
 ```
 
-### Common suggestions
+## Common suggestions
 * Creating an extension function like `Int.square()` makes life slightly easier
 * Pointers to the closed-form formula can be found here: https://brilliant.org/wiki/sum-of-n-n2-or-n3/ 

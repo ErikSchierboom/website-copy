@@ -1,6 +1,8 @@
-### Reasonable solutions
+# Mentoring
 
-#### Solution using immutable collection
+## Reasonable solutions
+
+### Solution using immutable collection
 
 ```scala
 import scala.annotation.tailrec
@@ -17,7 +19,7 @@ class Accumulate {
 }
 ```
 
-#### Solution using mutable collection
+### Solution using mutable collection
 
 ```scala
 import scala.annotation.tailrec

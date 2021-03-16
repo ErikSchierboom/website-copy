@@ -1,6 +1,8 @@
-### Reasonable solutions
+# Mentoring
 
-#### Sample GenServer solution
+## Reasonable solutions
+
+### Sample GenServer solution
 ```elixir
 defmodule RobotSimulator do
   defmodule Robot do
@@ -76,7 +78,7 @@ defmodule RobotSimulator do
 end
 ```
 
-#### Sample Recursive solution
+### Sample Recursive solution
 
 ```elixir
 defmodule RobotSimulator do

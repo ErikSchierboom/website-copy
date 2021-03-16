@@ -1,8 +1,10 @@
+# Mentoring
+
 This exercise focuses on
 - [`String`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) iteration ([`String#replace`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace), [`String#split`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split))
 - [`Object`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)/`Map`
 
-### Reasonable solutions
+## Reasonable solutions
 
 ```javascript
 const TRANSCRIPTION = {
@@ -36,7 +38,7 @@ Variations include replacing only the "known" nucleotides:
 sequence.replace(/[CGAT]/g, (nucleotide) => /* */)
 ```
 
-#### Note
+### Note
 
 There are versions that check for valid Input DNA (which has since been removed), meaning 
 they include the following or variations:

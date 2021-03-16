@@ -1,4 +1,6 @@
-### Reasonable Solutions
+# Mentoring
+
+## Reasonable Solutions
 
 ```bash
 #!/usr/bin/env bash
@@ -13,7 +15,7 @@ main() {
 main "$@"
 ```
 
-### Common Suggestions
+## Common Suggestions
 
 * the sentence is repeated for each case
 
@@ -69,7 +71,7 @@ It would be nice if you removed the boiler plate comments, to make it easier
 to read your code.
 ```
 
-### Talking Points
+## Talking Points
 
 This is the first exercise where some kind of conditional is needed. If the
 student uses `if`/`else` it's an opportunity to talk about the test constructs

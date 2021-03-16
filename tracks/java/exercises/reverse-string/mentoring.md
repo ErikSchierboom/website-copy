@@ -1,4 +1,6 @@
-### Reasonable solutions
+# Mentoring
+
+## Reasonable solutions
 
 Loop-based solution (see remarks in common suggestions):
 ```java
@@ -36,7 +38,7 @@ class ReverseString {
 }
 ```
 
-### Common suggestions
+## Common suggestions
 
 - Some students may submit a recursive solution. Warn them about performance issues in this case.
 - Some students may submit a solution that builds new strings. Since this has a memory overhead of copying the entire output string once for each character in it, a solution based on StringBuilder is preferred.

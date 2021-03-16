@@ -1,5 +1,7 @@
-### Reasonable solutions
-#### LINQ
+# Mentoring
+
+## Reasonable solutions
+### LINQ
 
 ```csharp
 using System;
@@ -27,7 +29,7 @@ public static class Raindrops
 }
 ```
 
-#### Extreme LINQ
+### Extreme LINQ
 ```csharp
 using System.Linq;
 
@@ -41,7 +43,7 @@ public static class Raindrops
             .Aggregate((sounds, sound) => sounds + sound);
 }
 ```
-#### Non-LINQ
+### Non-LINQ
 ```csharp
 using System;
 

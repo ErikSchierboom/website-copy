@@ -1,12 +1,14 @@
-### Concepts
+# Mentoring
+
+## Concepts
 
 - stack or recursion
 
-### Reasonable solutions
+## Reasonable solutions
 
 A reasonable solution should do the following:
 
-### Examples
+## Examples
 
 ```rust
 pub fn brackets_are_balanced(string: &str) -> bool {

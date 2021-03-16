@@ -1,4 +1,6 @@
-### Reasonable solutions
+# Mentoring
+
+## Reasonable solutions
 
 Using [`Agent`](https://hexdocs.pm/elixir/Agent.html):
 
@@ -138,9 +140,9 @@ defmodule BankAccount do
 end
 ```
 
-### Common questions
+## Common questions
 
-#### `@opaque` vs `@type`/`@typep`
+### `@opaque` vs `@type`/`@typep`
 
 This problem initially provides students with an `@opaque account :: pid`.
 

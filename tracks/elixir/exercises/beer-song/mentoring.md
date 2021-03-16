@@ -1,4 +1,6 @@
-### Reasonable solutions
+# Mentoring
+
+## Reasonable solutions
 
 ```elixir
 defmodule BeerSong do
@@ -45,13 +47,13 @@ defmodule BeerSong do
 end
 ```
  
-### Common suggestions
+## Common suggestions
 
-#### Use string interpolation
+### Use string interpolation
 "#{var}" can be used to include text into a string.
 This is clearer than concatenation.
 
-#### Use multi-line strings
+### Use multi-line strings
 ```
 """
 Multiline strings are far
@@ -60,7 +62,7 @@ than embedded newlines
 """
 ``` 
 
-#### Use explicit pattern matching rather than guard clause 
+### Use explicit pattern matching rather than guard clause 
 ```
 def verse(0), do: ...
 ```

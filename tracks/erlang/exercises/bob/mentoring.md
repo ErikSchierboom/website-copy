@@ -1,4 +1,6 @@
-### Reasonable solutions
+# Mentoring
+
+## Reasonable solutions
 
 ```erl
 response(Str) ->
@@ -26,7 +28,7 @@ response([_|Str], HasUpper, HasLower, _HasOther, _MaybeQuestion) ->
   response(Str, HasUpper, HasLower, true, false).
 ```
 
-### Common suggestions
+## Common suggestions
 
 * If the student is using regular expressions, ask for a solution that works
   without them.
@@ -37,7 +39,7 @@ response([_|Str], HasUpper, HasLower, _HasOther, _MaybeQuestion) ->
   times (to check for uppercase letters, lowercase letters, ...), ask for
   a solution that requires only one pass.
 
-### Talking points
+## Talking points
 
 * Regular expressions vs pattern matching
 

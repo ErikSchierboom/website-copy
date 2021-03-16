@@ -1,4 +1,6 @@
-### Reasonable solutions
+# Mentoring
+
+## Reasonable solutions
 
 ```ruby
 class Squares
@@ -27,7 +29,7 @@ class Squares
 end
 ```
 
-### Talking points
+## Talking points
 - `sum` with and without a block (Ruby 2.4+) 
 - `1.upto(last)` vs `1..last` 
 - How to square? 

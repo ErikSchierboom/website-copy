@@ -1,5 +1,7 @@
-### Reasonable solutions
-#### Struct based
+# Mentoring
+
+## Reasonable solutions
+### Struct based
 
 ```csharp
 using System;
@@ -29,7 +31,7 @@ public struct Clock
 }
 ```
 
-#### Class based
+### Class based
 If you implement Clock as a class you have to handle the tricky rules of equality
 ```csharp
 public class Clock
